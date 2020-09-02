@@ -1,0 +1,505 @@
+body{padding: 0px; margin: 0px;width: 100%; overflow-x: hidden;}
+html,body{
+    overflow-x: hidden;
+}
+
+.fixed {
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  background:red;
+  height:100%;
+}
+
+
+
+
+
+.mainbox{
+	height: 100vh;
+	background-color: pink;
+}
+
+.sidebox{
+	padding: 0px;
+}
+
+.sidebar{
+	background-color: black;
+	height: 10000vh;
+	position: fixed; 
+	width: 16.666667%;
+	color:white; 
+}
+
+.centerbar{
+	padding:0px;
+}
+
+.logobox{
+	border-bottom:1px solid #1a1a1a;
+}
+
+.nav{
+	text-align: center;
+	font-family: Abel;
+	border-bottom: 1px solid #F7941E;
+}
+
+.nav a{
+	font-size: 15px;
+	text-decoration: none;
+	color: white;
+}
+
+.nav a:hover , .active{
+	color:#F7941E !important;
+}
+
+ul{
+	list-style: none;
+	padding-top: 15px;
+}
+
+ul li{
+	padding: 10px;
+}
+
+.trainimg{
+	margin-top:25px;
+	text-align: center;
+}
+
+.scroll{
+	position: absolute;
+	top: 83vh;
+	left: 37vw;
+	animation-name: change;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+}
+
+@keyframes change{
+	from{transform: scale(1);}
+	to{transform: scale(1.2);}
+}
+
+
+
+
+
+	/*color:#F7941E !important*/
+
+
+
+.extra{
+	font-weight: bolder;
+	font-size: 45px;
+}
+
+.mycaption{
+	position: absolute;
+	font-family: Abel;
+	font-weight: bold;
+	padding: 15px;
+	font-size: 35px;
+	line-height: 1;
+	animation-name: delay;
+	animation-duration: 5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+
+@keyframes delay{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
+
+#sec1 .carousel-item img{
+	height: 100vh;
+}
+
+#sec2{
+	background-image: url("https://www.hcs.com.pk/wp-content/uploads/2014/07/machinery.jpg");
+/*	height: 70vh;*/
+	background-position: center center;
+}
+
+.center{
+	text-align:center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head{
+	font-family: "Montserrat";
+	font-weight: bold;
+}
+
+.para{
+	font-family: Abel;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+.black{
+	background:rgba(0,0,0,0.8);
+	padding-top: 120px;
+	padding-bottom: 120px; 
+	height: 100%;
+}
+
+.black h3{
+	color: white;
+}
+
+.black p {
+	width: 85%;
+	color: rgba(255,255,255,0.8);
+}
+
+.mybtn{
+	font-family: Abel;
+	color: white;
+	border:2px solid white;
+	background-color: black;
+	font-size: 10px;
+	height: 40px;
+	width: 130px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.mybtn:hover{
+	background-color: white;
+	color: black;
+}
+
+#sec3{
+	background-color: white;
+}
+.white{
+	padding-top: 70px;
+	padding-bottom: 60px;  
+}
+
+.white .head{
+	color: black;
+	margin-bottom: 0px;
+}
+
+.myhr{
+	color: black;
+	border:2px solid black;
+	width: 75px;
+}
+
+
+.card-img-top{
+	position: relative;
+	filter: grayscale(500%);
+	opacity: 0.3;
+}
+.try{
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	color:#F7941E;
+	font-style: italic;
+}
+
+.card-img-top{
+	height: 200px;
+}
+.card-img-top:hover + .try {
+	display: none;
+}
+
+.card-img-top:hover{
+	filter: grayscale(0%);
+	opacity: 1;
+}
+
+.services{
+	display: flex;
+	flex-direction: row;
+	padding: 30px;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card{
+	margin: 10px;
+	margin-top: 30px;
+	box-shadow: 1px  1px 7px 5px #F5F5F5;
+}
+
+
+.adjust{
+	padding-top: 45px;
+	padding-bottom: 40px;
+}
+
+
+#sec4{
+	background-image: url("https://www.hcs.com.pk/wp-content/uploads/2014/07/hand-shake.jpg");
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+}
+
+.slider-content{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.adjust2{
+	color: black;
+	border:2px solid white;
+	width: 75px;
+}
+
+.slick-item{
+	color: white;
+	width: 230px !important;
+}
+
+.slick-slide img{
+	width: 170px;
+	height: 170px;
+}
+
+#sec5{
+	padding-top: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 50px;
+	text-align: center;
+	/*background-image: linear-gradient(#f7941e, white);
+
+*/
+	background-color: #f7941e;
+}
+
+#sec5 img{
+	position: absolute;
+}
+
+#sec5 p{
+	font-family: 'satisfy';
+	font-size: 21px;
+}
+
+
+#sec6{
+	
+	background-color: #131313;
+}
+
+
+
+.outer{
+	
+}
+
+#sec6 .row{
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.fa, .fas{
+	color: grey;
+	font-size: 13px !important;
+}
+
+.first{
+	color:grey;
+	padding: 40px;
+}
+
+.detail{
+	margin-top: 5px;
+}
+
+.detail span{
+	padding-left: 10px;
+}
+
+.third{
+	padding-top: 40px;
+}
+
+
+.secondscroll{overflow: hidden;color: grey;height: 25vh;}
+.secondscroll p{
+
+	animation: movevertical 13s linear infinite;
+	animation-fill-mode: forwards;}
+
+.secondscroll p:hover{
+	animation-play-state: paused;
+
+}
+
+@keyframes movevertical {
+  100% {
+    transform: translateY(-60.6666%);
+  }
+}
+
+
+
+.second{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.second h3{
+	color: lightgrey;
+	margin-bottom: 10px;
+}
+
+.orange{
+	color: #f7941e;
+}
+
+.formbl{
+	height: 15vh;
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+}
+
+.smallnav{
+	background-color: black;
+	position: absolute;
+	z-index: 10000;
+	width: 100%;
+	text-align: center;
+}
+
+.smallnav ul{
+	padding:0px !important;
+}
+
+
+.tohide{
+	display: none;
+}
+
+.show{
+	display: block;
+}
+
+.notshow{
+	display: none;
+}
+
+.third{text-align: center;}
+
+#sec7{
+	height: 10vh;
+	background-color: black;
+}
+
+@media only screen and (max-width: 900px) {
+	.notshow{display: block;}
+	.sidebox{display: none;background-color: yellow;}
+	#sec1 .carousel-item img{
+		height: 85vh;
+	}
+	.mycaption{font-size: 20px;}
+	.extra{font-size: 30px;}
+	.scroll{top: 69vh;}
+	.first{text-align: center;}
+	.secondscroll{
+		height: 40vh;
+		padding: 30px;
+	}
+	.second{
+		padding: 20px;
+	}
+}
+
+
+
+
+
+#nav-icon1{
+  width: 35px;
+  height: 20px;
+  margin: 20px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer;
+}
+
+#nav-icon1 span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #d3531a;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-icon1 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon1 span:nth-child(2) {
+  top: 10px;
+}
+
+#nav-icon1 span:nth-child(3) {
+  top: 20px;
+}
+
+#nav-icon1.open span:nth-child(1) {
+  top: 18px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+#nav-icon1.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+
+#nav-icon1.open span:nth-child(3) {
+  top: 18px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
