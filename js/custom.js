@@ -41,7 +41,24 @@
       ]
 });
 
+// subsection 5 counters start
+$(document).ready(function() {
 
+$('.counter').each(function () {
+$(this).prop('Counter',0).animate({
+Counter: $(this).text()
+}, {
+duration: 4000,
+easing: 'swing',
+step: function (now) {
+$(this).text(Math.ceil(now));
+}
+});
+});
+
+});
+
+// subsection 5 counters ends
 
 // for mbl nav
 $(document).ready(function(){
