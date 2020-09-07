@@ -1,3 +1,4 @@
+/* for fixing each element  */
 body{padding: 0px; margin: 0px;width: 100%; overflow-x: hidden;}
 html,body{
     overflow-x: hidden;
@@ -16,11 +17,13 @@ html,body{
 
 
 
+/* outer container */
 .mainbox{
 	height: 100vh;
 	background-color: pink;
 }
 
+/* side bar */
 .sidebox{
 	padding: 0px;
 }
@@ -31,10 +34,6 @@ html,body{
 	position: fixed; 
 	width: 16.666667%;
 	color:white; 
-}
-
-.centerbar{
-	padding:0px;
 }
 
 .logobox{
@@ -71,6 +70,14 @@ ul li{
 	text-align: center;
 }
 
+
+
+/* subsection 1 */
+.centerbar{
+	padding:0px;
+}
+
+
 .scroll{
 	position: absolute;
 	top: 83vh;
@@ -86,13 +93,6 @@ ul li{
 	from{transform: scale(1);}
 	to{transform: scale(1.2);}
 }
-
-
-
-
-
-	/*color:#F7941E !important*/
-
 
 
 .extra{
@@ -123,6 +123,8 @@ ul li{
 	height: 100vh;
 }
 
+
+/* subsection 2 */
 #sec2{
 	background-image: url("https://www.hcs.com.pk/wp-content/uploads/2014/07/machinery.jpg");
 /*	height: 70vh;*/
@@ -148,8 +150,6 @@ ul li{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
-
-
 
 .black{
 	background:rgba(0,0,0,0.8);
@@ -184,6 +184,8 @@ ul li{
 	color: black;
 }
 
+
+/* subsection 3 */
 #sec3{
 	background-color: white;
 }
@@ -250,8 +252,28 @@ ul li{
 	padding-bottom: 40px;
 }
 
-
+/* subsection 4 */
 #sec4{
+	padding-top: 60px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 50px;
+	text-align: center;
+	background-color: #f7941e;
+}
+
+#sec4 img{
+	position: absolute;
+}
+
+#sec4 p{
+	font-family: 'satisfy';
+	font-size: 21px;
+}
+
+
+/* subsection 5 */
+#sec5{
 	background-image: url("https://www.hcs.com.pk/wp-content/uploads/2014/07/hand-shake.jpg");
 	background-position: center center;
 	background-size: cover;
@@ -279,38 +301,15 @@ ul li{
 	height: 170px;
 }
 
-#sec5{
-	padding-top: 60px;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-bottom: 50px;
-	text-align: center;
-	/*background-image: linear-gradient(#f7941e, white);
 
-*/
-	background-color: #f7941e;
-}
 
-#sec5 img{
-	position: absolute;
-}
-
-#sec5 p{
-	font-family: 'satisfy';
-	font-size: 21px;
-}
-
+/* subsection 6 */
 
 #sec6{
-	
 	background-color: #131313;
 }
 
 
-
-.outer{
-	
-}
 
 #sec6 .row{
 	height: 100%;
@@ -408,6 +407,7 @@ ul li{
 
 .third{text-align: center;}
 
+/* subsection 7 */
 #sec7{
 	height: 10vh;
 	background-color: black;
@@ -435,7 +435,7 @@ ul li{
 
 
 
-
+/* mbl nav settings  */
 #nav-icon1{
   width: 35px;
   height: 20px;

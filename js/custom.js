@@ -1,6 +1,6 @@
 
 
-
+// for client slider
 
       $('.slider-content').slick({
 
@@ -43,10 +43,7 @@
 
 
 
-// $("#myModal").on('hidden.bs.modal', function (e) {
-//     $("#myModal iframe").attr("src", $("#myModal iframe").attr("src"));
-
-
+// for mbl nav
 $(document).ready(function(){
   $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
     $(this).toggleClass('open');
