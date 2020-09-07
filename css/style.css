@@ -4,18 +4,6 @@ html,body{
     overflow-x: hidden;
 }
 
-.fixed {
-  position:fixed;
-  bottom:0;
-  left:0;
-  right:0;
-  background:red;
-  height:100%;
-}
-
-
-
-
 
 /* outer container */
 .mainbox{
@@ -38,6 +26,8 @@ html,body{
 
 .logobox{
 	border-bottom:1px solid #1a1a1a;
+	text-align: center;
+	padding-bottom: 20px;;
 }
 
 .nav{
