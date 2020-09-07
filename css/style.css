@@ -16,24 +16,24 @@ html,body{
 	padding: 0px;
 }
 
-.sidebar{
-	background-color: black;
-	height: 10000vh;
-	position: fixed; 
-	width: 16.666667%;
-	color:white; 
+.sidebar {
+    background-color: #333333;
+    height: 10000vh;
+    position: fixed;
+    width: 16.666667%;
+    color: white;
 }
 
 .logobox{
-	border-bottom:1px solid #1a1a1a;
+	border-bottom:1px solid #999999;
 	text-align: center;
-	padding-bottom: 20px;;
+	padding-bottom: 20px;
 }
 
-.nav{
-	text-align: center;
-	font-family: Abel;
-	border-bottom: 1px solid #F7941E;
+.nav {
+    text-align: center;
+    font-family: Abel;
+    border-bottom: 1px solid #999999;
 }
 
 .nav a{
@@ -42,9 +42,9 @@ html,body{
 	color: white;
 }
 
-.nav a:hover , .active{
-	color:#F7941E !important;
-}
+    .nav a:hover, .active {
+        color: #999999 !important;
+    }
 
 ul{
 	list-style: none;
@@ -201,12 +201,12 @@ ul li{
 	filter: grayscale(500%);
 	opacity: 0.3;
 }
-.try{
-	position: absolute;
-	top: 30%;
-	left: 30%;
-	color:#F7941E;
-	font-style: italic;
+.try {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: #05034c;
+    font-style: italic;
 }
 
 .card-img-top{
@@ -243,13 +243,13 @@ ul li{
 }
 
 /* subsection 4 */
-#sec4{
-	padding-top: 60px;
-	padding-left: 40px;
-	padding-right: 40px;
-	padding-bottom: 50px;
-	text-align: center;
-	background-color: #f7941e;
+#sec4 {
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #999999;
 }
 
 #sec4 img{
@@ -359,23 +359,23 @@ ul li{
 	margin-bottom: 10px;
 }
 
-.orange{
-	color: #f7941e;
+.orange {
+    color: #999999;
 }
 
-.formbl{
-	height: 15vh;
-	background-color: black;
-	display: flex;
-	justify-content: space-between;
+.formbl {
+    height: 15vh;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
 }
 
-.smallnav{
-	background-color: black;
-	position: absolute;
-	z-index: 10000;
-	width: 100%;
-	text-align: center;
+.smallnav {
+    background-color: #333333;
+    position: absolute;
+    z-index: 10000;
+    width: 100%;
+    text-align: center;
 }
 
 .smallnav ul{
@@ -441,24 +441,24 @@ ul li{
   cursor: pointer;
 }
 
-#nav-icon1 span {
-  display: block;
-  position: absolute;
-  height: 4px;
-  width: 100%;
-  background: #d3531a;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-  -moz-transition: .25s ease-in-out;
-  -o-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
-}
+    #nav-icon1 span {
+        display: block;
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        background: #999999;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -moz-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
 
 #nav-icon1 span:nth-child(1) {
   top: 0px;
